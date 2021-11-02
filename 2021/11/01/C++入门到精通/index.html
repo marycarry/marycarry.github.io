@@ -16,15 +16,15 @@
   <meta name="description" content="unknown">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="unknown">
-  <meta name="description" content="冒号（：）单冒号：计算机语言中有很多时候都需要是用到冒号，c语言中“：”">
+  <meta name="description" content="头文件与源文件的区别本质上没有区别，前者装”.h”文件，后者装“.c”、”.cpp”文件，前者用于定义变量，定义结构体，声明函数；后者用于实现函数，定义变量。编译器会区别对待这两类文件。 简单的说其实要理解C文件与头文件（即.h）有什么不同之处，首先需要弄明白编译器的工作过程，一般说来编译器会做以下几个过程：　　①预处理阶段　　②词法与语法分析阶段　　③ 编译阶段，首先编译成纯汇编语句，再将之汇编">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C++入门到精通">
 <meta property="og:url" content="http://example.com/2021/11/01/C++%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/index.html">
 <meta property="og:site_name" content="marycarryBlog">
-<meta property="og:description" content="冒号（：）单冒号：计算机语言中有很多时候都需要是用到冒号，c语言中“：”">
+<meta property="og:description" content="头文件与源文件的区别本质上没有区别，前者装”.h”文件，后者装“.c”、”.cpp”文件，前者用于定义变量，定义结构体，声明函数；后者用于实现函数，定义变量。编译器会区别对待这两类文件。 简单的说其实要理解C文件与头文件（即.h）有什么不同之处，首先需要弄明白编译器的工作过程，一般说来编译器会做以下几个过程：　　①预处理阶段　　②词法与语法分析阶段　　③ 编译阶段，首先编译成纯汇编语句，再将之汇编">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-11-01T06:06:10.586Z">
-<meta property="article:modified_time" content="2021-11-01T11:28:41.201Z">
+<meta property="article:modified_time" content="2021-11-02T07:26:53.570Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="个性化学习">
 <meta name="twitter:card" content="summary_large_image">
@@ -74,7 +74,7 @@
 
 
 <body>
-  <header style="height: 70vh;">
+  <header style="height: 40vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -196,7 +196,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      36 字
+      432 字
     </span>
   
 
@@ -246,12 +246,15 @@
             
               <p class="note note-info">
                 
-                  本文最后更新于：1 小时前
+                  本文最后更新于：43 分钟前
                 
               </p>
             
             <div class="markdown-body">
-              <h2 id="冒号（：）"><a href="#冒号（：）" class="headerlink" title="冒号（：）"></a>冒号（：）</h2><h3 id="单冒号："><a href="#单冒号：" class="headerlink" title="单冒号："></a>单冒号：</h3><p>计算机语言中有很多时候都需要是用到冒号，c语言中“：”</p>
+              <h3 id="头文件与源文件的区别"><a href="#头文件与源文件的区别" class="headerlink" title="头文件与源文件的区别"></a>头文件与源文件的区别</h3><p>本质上没有区别，前者装”.h”文件，后者装“.c”、”.cpp”文件，前者用于定义变量，定义结构体，声明函数；后者用于实现函数，定义变量。编译器会区别对待这两类文件。</p>
+<p>简单的说其实要理解C文件与头文件（即.h）有什么不同之处，首先需要弄明白编译器的工作过程，一般说来编译器会做以下几个过程：<br>　　①预处理阶段<br>　　②词法与语法分析阶段<br>　　③ 编译阶段，首先编译成纯汇编语句，再将之汇编成跟CPU相关的二进制码，生成各 个目标文件 (.obj文件)<br>　　④连接阶段，将各个目标文件中的各段代码进行绝对地址定位，生成跟特定平台相关 的可执行文件，当然，最后还可以用objcopy生成纯二进制码，也就是去掉了文件格 式信 息。（生成.exe文件）</p>
+<p><strong>using namespace std 告诉编辑器我们将要使用名字空间std中的函数或者对象，所以cout和endl前面不用注明他们是std这个名字空间中的cout和endl</strong></p>
+<h3 id="冒号（：）"><a href="#冒号（：）" class="headerlink" title="冒号（：）"></a>冒号（：）</h3><h4 id="单冒号："><a href="#单冒号：" class="headerlink" title="单冒号："></a>单冒号：</h4><p>计算机语言中有很多时候都需要是用到冒号，c语言中“：”</p>
 
             </div>
             <hr>
